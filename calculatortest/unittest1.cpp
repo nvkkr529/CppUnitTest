@@ -16,7 +16,7 @@ namespace Test1
 		{
 			DemoTest test;
 			int t = 3;
-			int d = test.add(1, 2);
+			int d = test.add(3, 2);
 			cout<<t<<d;
 			Assert::AreEqual(t, d);
 
