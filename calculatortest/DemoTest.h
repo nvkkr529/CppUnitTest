@@ -2,8 +2,8 @@ class DemoTest
 {
 public:
 	int add(int a,int b);
-	int muliplication(int a, int b);
-	int substraction(int a, int b);
-	int division(int a, int b);
+	int multiply(int a, int b);
+	int substract(int a, int b);
+	int divide(int a, int b);
 };
 
