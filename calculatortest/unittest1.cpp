@@ -18,7 +18,7 @@ namespace Test1
 		TEST_METHOD(AdditionTest)
 		{
 			expected = 5;
-			actual = test.add(3, 2);
+			actual = test.add(4, 2);
 			Assert::AreEqual(expected, actual);
 
 		}
