@@ -12,7 +12,7 @@ namespace Test1
 	TEST_CLASS(UnitTest1)
 	{
 	public:
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(AdditionTest)
 		{
 			DemoTest test;
 			int t = 5;
@@ -22,7 +22,7 @@ namespace Test1
 
 		}
 	public:
-		TEST_METHOD(TestMethod2)
+		TEST_METHOD(MultiplicationTest)
 		{
 			DemoTest test;
 			int u = 6;
@@ -32,7 +32,7 @@ namespace Test1
 
 		}
 	public:
-		TEST_METHOD(TestMethod3)
+		TEST_METHOD(SubstractionTest)
 		{
 			DemoTest test;
 			int v = 2;
@@ -42,7 +42,7 @@ namespace Test1
 
 		}
 	public:
-		TEST_METHOD(TestMethod4)
+		TEST_METHOD(DivisionTest)
 		{
 			DemoTest test;
 			int w = 4;
