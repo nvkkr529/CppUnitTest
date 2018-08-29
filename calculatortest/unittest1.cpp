@@ -15,40 +15,40 @@ namespace Test1
 		TEST_METHOD(AdditionTest)
 		{
 			DemoTest test;
-			int t = 5;
-			int d = test.add(3, 2);
+			int expected = 5;
+			int actual = test.add(3, 2);
 			cout<<t<<d;
-			Assert::AreEqual(t, d);
+			Assert::AreEqual(expected, actual);
 
 		}
 	public:
 		TEST_METHOD(MultiplicationTest)
 		{
 			DemoTest test;
-			int u = 6;
-			int p = test.multiply(2, 3);
+			int expected = 6;
+			int actual = test.multiply(2, 3);
 			cout<<u<<p;
-			Assert::AreEqual(u, p);
+			Assert::AreEqual(expected, actual);
 
 		}
 	public:
 		TEST_METHOD(SubstractionTest)
 		{
 			DemoTest test;
-			int v = 2;
-			int q = test.substract(5, 3);
+			int expected = 2;
+			int actual = test.substract(5, 3);
 			cout<<v<<q;
-			Assert::AreEqual(v, q);
+			Assert::AreEqual(expected, actual);
 
 		}
 	public:
 		TEST_METHOD(DivisionTest)
 		{
 			DemoTest test;
-			int w = 4;
-			int r = test.divide(20, 5);
+			int expected = 4;
+			int actual = test.divide(20, 5);
 			cout<<w<<r;
-			Assert::AreEqual(w, r);
+			Assert::AreEqual(expected, actual);
 
 		}
 
