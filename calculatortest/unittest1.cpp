@@ -15,7 +15,7 @@ namespace Test1
 		TEST_METHOD(TestMethod1)
 		{
 			DemoTest test;
-			int t = 3;
+			int t = 5;
 			int d = test.add(3, 2);
 			cout<<t<<d;
 			Assert::AreEqual(t, d);
