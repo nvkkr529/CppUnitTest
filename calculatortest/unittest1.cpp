@@ -25,7 +25,7 @@ namespace Test1
 	public:
 		TEST_METHOD(MultiplicationTest)
 		{
-			expected = 6;
+			expected = 7;
 			actual = test.multiply(2, 3);
 			Assert::AreEqual(expected, actual);
 
