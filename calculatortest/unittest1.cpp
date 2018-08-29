@@ -26,7 +26,7 @@ namespace Test1
 		{
 			DemoTest test;
 			int u = 6;
-			int p = test.muliplication(2, 3);
+			int p = test.multiply(2, 3);
 			cout<<u<<p;
 			Assert::AreEqual(u, p);
 
@@ -36,7 +36,7 @@ namespace Test1
 		{
 			DemoTest test;
 			int v = 2;
-			int q = test.substraction(5, 3);
+			int q = test.substract(5, 3);
 			cout<<v<<q;
 			Assert::AreEqual(v, q);
 
@@ -46,7 +46,7 @@ namespace Test1
 		{
 			DemoTest test;
 			int w = 4;
-			int r = test.division(20, 5);
+			int r = test.divide(20, 5);
 			cout<<w<<r;
 			Assert::AreEqual(w, r);
 
