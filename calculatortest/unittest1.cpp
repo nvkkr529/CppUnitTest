@@ -12,8 +12,8 @@ namespace Test1
 	TEST_CLASS(UnitTest1)
 	{
 		DemoTest test;
-		int expected = 5;
-		int actual = test.add(3, 2);
+		int expected;
+		int actual;
 	public:
 		TEST_METHOD(AdditionTest)
 		{
