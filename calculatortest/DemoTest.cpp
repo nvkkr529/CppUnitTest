@@ -7,19 +7,19 @@ int DemoTest::add(int a, int b)
 	return c;
 }
 
-int DemoTest::muliplication(int a, int b)
+int DemoTest::multiply(int a, int b)
 {
 	int d = a * b;
 	return d;
 }
 
-int DemoTest::substraction(int a, int b)
+int DemoTest::substract(int a, int b)
 {
 	int e = a - b;
 	return e;
 }
 
-int DemoTest::division(int a, int b)
+int DemoTest::divide(int a, int b)
 {
 	int f = a / b;
 	return f;
